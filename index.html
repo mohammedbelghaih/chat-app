@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("7.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            /* background-image: url("0.jpg"); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #585858;
+            font-size: 20px;
+            height: 650px;
+            width: 25%;
+            overflow: scroll;
+            overflow-x: hidden;
+            font-family: 'Poppins';
+            
+
+        }
+        
+        .message2{
+            text-align: right;
+            width: 92%;
+    border-radius: 21px;
+    padding: 10px;
+    background-color: #a6e9ea;
+    margin-bottom: 10px;
+            
+            
+        }
+        .message1{
+            text-align: left;
+            width: 92%;
+    border-radius: 21px;
+    padding: 10px;
+    background-color: #a6e9ea;
+    margin-bottom: 10px;
+            
+            
+            
+        }
+        #msg{
+            width: 19%;
+            width: 23%;
+            height: 42px;
+        }
+        .send1{
+            width: 4%; 
+            height: 40px;
+            background-color: #55c2c3;
+             border: 1px solid #55c2c3;
+             color: white ;
+        }
+        .send1:hover{
+            
+            background-color: #a6e6e6;
+            border: 1px solid #a6e6e6;
+        }
+        .nav{
+            background-color: #55c2c3;
+            height: 80px;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        
+    </div>
+    <center>
+        <h1>Chat App</h1>
+        <div class="container">
+            <div id="container">
+                
+            </div>
+        </div>
+    
+    <div class="send">
+        <!-- <input type="text" id="msg" value=""> -->
+        <textarea id="msg" ></textarea>
+    
+    <div>
+        <input class="send1" type="button" value="Send1" onclick="send()">
+        <input class="send1" type="button" value="Send 2" onclick="send2()">
+    </div>
+    </div>
+</center>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
